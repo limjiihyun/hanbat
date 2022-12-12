@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gram17/AndroidStudioProjects/hanbat/app/src/main/res/layout/activity_main.xml" value="0.2518796992481203" />
+        <entry key="..\:/Users/gram17/AndroidStudioProjects/hanbat/app/src/main/res/layout/fragment1.xml" value="0.17249240121580547" />
+        <entry key="..\:/Users/gram17/AndroidStudioProjects/hanbat/app/src/main/res/layout/layout1.xml" value="0.1" />
+        <entry key="..\:/Users/gram17/AndroidStudioProjects/hanbat/app/src/main/res/layout/layout2.xml" value="0.22" />
+        <entry key="..\:/Users/gram17/AndroidStudioProjects/hanbat/app/src/main/res/layout/layout3.xml" value="0.17477203647416414" />
+        <entry key="..\:/Users/gram17/AndroidStudioProjects/hanbat/app/src/main/res/layout/menulistitem.xml" value="0.22" />
+        <entry key="..\:/Users/gram17/AndroidStudioProjects/hanbat/app/src/main/res/layout/picture.xml" value="0.17401215805471124" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

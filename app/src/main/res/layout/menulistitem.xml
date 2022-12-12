@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--상대적 레이아웃-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--이미지 넣을 수 있는 이미지뷰-->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+
+        android:layout_marginRight="8dp"/>
+<!--제목을 넣을 수 있는 텍스트 뷰-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image"
+        android:layout_toRightOf="@+id/image"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+<!--설명을 넣을 수 있는 텍스트 뷰-->
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/image"
+        android:textSize="15dip"/>
+<!--전화를 걸수 있는 버튼-->
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#E87CA1"
+        android:onClick="calls"
+        android:text="전화걸기"
+        android:textSize="13dip">
+    </Button>
+
+</RelativeLayout>
