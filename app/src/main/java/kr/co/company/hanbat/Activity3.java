@@ -20,7 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Activity3 extends AppCompatActivity {
     ListView list;//리스트 뷰 생성
     String[] titles={
-            "뿌엥",
+            "뿌엥~",
             "DAILY",
             "SIHORU",
             "YAMS"
